@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "esModuleInterop":true,
+    "declaration": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "baseUrl": "."
+  },
+  "exclude": [
+    "**/node_modules/**/*",
+    "packages/*/build/**/*",
+    "packages/*/test/**/*",
+    "packages/test/**/*"
+  ],
+  "include": [
+    "packages/**/*.ts"
+  ]
+}

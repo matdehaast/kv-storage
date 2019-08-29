@@ -1,0 +1,25 @@
+{
+  "name": "kv-storage",
+  "version": "0.0.0",
+  "description": "An async key/value storage API for nodejs",
+  "author": "Matt de Haast <matt.dehaast@coil.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build/**/*.json",
+    "build/**/*.js",
+    "build/**/*.js.map",
+    "build/**/*.d.ts",
+    "build/doc"
+  ],
+  "scripts": {
+    "build": "tsc -p src/tsconfig.build.json",
+    "lint": "el --project .",
+    "test": "jest --bail --runInBand"
+  },
+  "jest": {
+    "preset": "ts-jest"
+  }
+}
