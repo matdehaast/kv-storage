@@ -5,12 +5,10 @@
     "packages/*"
   ],
   "scripts": {
-    "bootstrap": "lerna bootstrap",
     "build": "lerna run build --sort --concurrency=1 --stream",
     "clean": "yarn clean:artifacts && yarn clean:packages",
     "clean:artifacts": "lerna run clean --parallel",
     "clean:packages": "lerna clean --yes",
-    "publish": "lerna publish from-git",
     "test": "lerna run test --stream"
   },
   "devDependencies": {
