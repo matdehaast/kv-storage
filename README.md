@@ -192,3 +192,5 @@ Returns an async iterator of `[key, value]` pairs, sorted to correspond with `ke
 - [ ] Add more datastore options (dynamodb, workers kv, firestore)
 - [ ] URI support for StorageArea constructor
 - [ ] DB connection error handling
+
+
