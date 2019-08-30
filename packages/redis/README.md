@@ -11,7 +11,7 @@ npm install --save @keyv/redis
 ## Usage
 
 ```typescript
-import { StorageArea } from 'kv-storage'
+import { StorageArea } from '@kv-storage/core'
 import { RedisDatabase } from '@kv-storage/redis'
 const redisDatabase = new RedisDatabase('redis://user:pass@localhost:6379');
 

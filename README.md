@@ -9,7 +9,7 @@ API.
 ### Basic Usage
 The following is an example of using `kv-storage` using a basic in-memory Map
 ```typescript
-import { StorageArea } from core
+import { StorageArea } from '@kv-storage/core'
 
 (async () => {
   const storage = new StorageArea()
@@ -29,7 +29,7 @@ import { StorageArea } from core
 ### Persistent Store
 
 ```typescript
-import { StorageArea } from "kv-storage"
+import { StorageArea } from '@kv-storage/core'
 import { RedisDatabase } from '@kv-storage/redis'
 
 (async () => {
@@ -44,7 +44,7 @@ import { RedisDatabase } from '@kv-storage/redis'
 ### Custom Namespaces
 
 ```typescript
-import { StorageArea } from "kv-storage"
+import { StorageArea } from '@kv-storage/core'
 import { RedisDatabase } from '@kv-storage/redis'
 
 (async () => {
@@ -103,7 +103,7 @@ const customDeserializer = () => JSON.parse(input, reviver)
 Using the `customSerializer` and `customDeserializer` 
 
 ```typescript
-import { StorageArea } from core
+import { StorageArea } from '@kv-storage/core'
 import { RedisDatabase } from '@kv-storage/redis'
 
 (async () => {
