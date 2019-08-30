@@ -9,7 +9,7 @@ API.
 ### Basic Usage
 The following is an example of using `kv-storage` using a basic in-memory Map
 ```typescript
-import { StorageArea } from "kv-storage"
+import { StorageArea } from 'kv-storage'
 
 (async () => {
   const storage = new StorageArea()
