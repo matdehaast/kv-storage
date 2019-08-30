@@ -1,6 +1,6 @@
 {
   "name": "@kv-storage/core",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "An async key/value storage API for nodejs",
   "author": "Matt de Haast <matt.dehaast@coil.com>",
   "homepage": "https://github.com/matdehaast/kv-storage#readme",
