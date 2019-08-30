@@ -1,5 +1,5 @@
 {
-  "name": "store-redis",
+  "name": "@kv-storage/redis",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Matt de Haast <matt.dehaast@coil.com>",

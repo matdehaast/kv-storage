@@ -31,6 +31,8 @@ export interface BackingStore {
 export interface StorageOptions {
   namespace?: string;
   database?: Database | string;
+  serialize?: (value: any) => string;
+  deserialize?: (value: string) => any;
 }
 
 export class StorageArea<T> {
@@ -41,8 +43,8 @@ export class StorageArea<T> {
   readonly deserialize: (value: string) => T
 
   constructor (opts?: StorageOptions) {
-    this.serialize = JSON.stringify
-    this.deserialize = JSON.parse
+    this.serialize = (opts && opts.serialize) || JSON.stringify
+    this.deserialize = (opts && opts.deserialize) || JSON.parse
 
     this.namespace = (opts && opts.namespace) || ''
 
