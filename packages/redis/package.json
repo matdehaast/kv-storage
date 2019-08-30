@@ -1,6 +1,6 @@
 {
   "name": "@kv-storage/redis",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "> TODO: description",
   "author": "Matt de Haast <matt.dehaast@coil.com>",
   "homepage": "https://github.com/matdehaast/kv-storage#readme",
@@ -26,8 +26,8 @@
     "preset": "ts-jest"
   },
   "dependencies": {
-    "ioredis": "^4.14.0",
-    "@kv-storage/core": "^0.1.1"
+    "@kv-storage/core": "^0.1.2",
+    "ioredis": "^4.14.0"
   },
   "devDependencies": {
     "@types/ioredis": "^4.0.15",
