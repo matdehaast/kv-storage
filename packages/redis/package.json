@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "> TODO: description",
   "author": "Matt de Haast <matt.dehaast@coil.com>",
-  "homepage": "",
-  "license": "ISC",
+  "homepage": "https://github.com/matdehaast/kv-storage#readme",
+  "license": "Apache-2.0",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "files": [
@@ -29,5 +29,6 @@
   "devDependencies": {
     "@types/ioredis": "^4.0.15",
     "ioredis-mock": "^4.16.3"
-  }
+  },
+  "gitHead": "ef5538d036524b3a29bc4a6217216df2b309ad09"
 }
