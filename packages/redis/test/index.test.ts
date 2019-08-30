@@ -1,4 +1,4 @@
-import { TestSuite } from 'kv-storage'
+import { TestSuite } from '@kv-storage/core'
 import { RedisDatabase } from '../src'
 import { Redis } from 'ioredis'
 

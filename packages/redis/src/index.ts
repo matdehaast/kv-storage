@@ -1,4 +1,4 @@
-import { Database, Store } from 'kv-storage'
+import { Database, Store } from '@kv-storage/core'
 import IoRedis, { Redis } from 'ioredis'
 
 export class RedisStore implements Store {

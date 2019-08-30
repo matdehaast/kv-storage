@@ -103,7 +103,7 @@ const customDeserializer = () => JSON.parse(input, reviver)
 Using the `customSerializer` and `customDeserializer` 
 
 ```typescript
-import { StorageArea } from "kv-storage"
+import { StorageArea } from core
 import { RedisDatabase } from '@kv-storage/redis'
 
 (async () => {

@@ -7,6 +7,9 @@
   "license": "Apache-2.0",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "build/**/*.json",
     "build/**/*.js",
@@ -24,11 +27,11 @@
   },
   "dependencies": {
     "ioredis": "^4.14.0",
-    "kv-storage": "^0.1.1"
+    "@kv-storage/core": "^0.1.1"
   },
   "devDependencies": {
     "@types/ioredis": "^4.0.15",
     "ioredis-mock": "^4.16.3"
   },
-  "gitHead": "ef5538d036524b3a29bc4a6217216df2b309ad09"
+  "gitHead": "d4cd482b4dbd1ca10cac227abe3209a21f610b94"
 }

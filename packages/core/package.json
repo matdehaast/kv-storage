@@ -1,5 +1,5 @@
 {
-  "name": "kv-storage",
+  "name": "@kv-storage/core",
   "version": "0.1.1",
   "description": "An async key/value storage API for nodejs",
   "author": "Matt de Haast <matt.dehaast@coil.com>",
@@ -7,6 +7,9 @@
   "license": "Apache-2.0",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "build/**/*.json",
     "build/**/*.js",
@@ -22,5 +25,5 @@
   "jest": {
     "preset": "ts-jest"
   },
-  "gitHead": "ef5538d036524b3a29bc4a6217216df2b309ad09"
+  "gitHead": "d4cd482b4dbd1ca10cac227abe3209a21f610b94"
 }
